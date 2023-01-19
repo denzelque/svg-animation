@@ -1,0 +1,62 @@
+.square {
+    stroke: green;
+    stroke-width: 5;
+    fill: yellow;
+}
+
+.rectangle {
+    stroke: red;
+    stroke-width: 5;
+    fill: blue;
+}
+
+.circle {
+    stroke: indigo;
+    stroke-width: 5;
+    fill: red;
+}
+
+.ellipse {
+    stroke: blue;
+    stroke-width: 5;
+    fill: black;
+}
+
+.animation {
+    stroke: rgb(22, 106, 159);
+    stroke-width: 5;
+    fill: rgb(60, 168, 78);
+    animation: color 5s infinite;
+}
+
+@keyframes color {
+    0% {
+        stroke: rgb(22, 106, 159);
+        stroke-width: 5;
+        fill: rgb(60, 168, 78);
+    }
+
+    25% {
+        stroke: rgb(159, 111, 22);
+        stroke-width: 7;
+        fill: rgb(166, 157, 167);
+    }
+
+    50% {
+        stroke: rgb(40, 2, 128);
+        stroke-width: 10;
+        fill: rgb(255, 0, 115);
+    }
+
+    75% {
+        stroke: rgb(22, 106, 159);
+        stroke-width: 12;
+        fill: rgb(168, 60, 134);
+    }
+
+    100% {
+        stroke: rgb(22, 106, 159);
+        stroke-width: 5;
+        fill: rgb(60, 168, 78);
+    }
+}
